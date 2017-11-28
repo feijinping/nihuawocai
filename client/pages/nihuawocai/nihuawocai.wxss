@@ -1,0 +1,11 @@
+/* pages/nihuawocai.wxss */
+.draw_area{
+  background-color: #C0C0C0	;
+  width: 98%;
+  height: 98%
+}
+.secondCanvas{
+  background-color: #C0C0C0	;
+  width: 98%;
+  height: 98%
+}
