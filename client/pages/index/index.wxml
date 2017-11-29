@@ -56,4 +56,5 @@
             <text>快速增加 CGI</text>
         </navigator>
     </view>
+    <navigator url="../nihuawocai/nihuawocai?roomid=5880e420fab00f41ddd63ce3" class="item"><view class="item-inner">你猜我画</view></navigator>
 </view>

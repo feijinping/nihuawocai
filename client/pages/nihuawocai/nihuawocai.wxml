@@ -1,17 +1,21 @@
 <!--pages/nihuawocai.wxml-->
-<view>
-    <view>时间：{{time}}</view>
-    <scroll-view wx:for="{{friendlist}}">
-      <view>
-        <view>
-          <image src='{{item.avatarUrl}}'></image>
+<view style='width:100%;height:130rpx'>
+    <view class='friends_view' style='padding-top: 30rpx; padding-bottom: 30rpx;'>
+      <view>时间：{{time}}</view>
+      <text>{{title}}</text>
+    </view>
+    <view class='friends_view_right'>
+        <scroll-view wx:for="{{friendlist}}" scroll-x>
+         <view>
+          <view>
+            <image src='{{item.avatarUrl}}' class='userinfo-avatar'></image>
+          </view>
+          <view>
+            <text>{{item.nickName}}</text>
+          </view>
         </view>
-        <view>
-         <text>{{item.nickName}}</text>
-        </view>
-      </view>
-     
-    </scroll-view>
+      </scroll-view>
+    </view>
 </view>
 <view style='width:100%;height:500rpx;'>
   <canvas canvas-id="draw_area"
@@ -23,7 +27,7 @@
     bindtouchcancel="touchEnd"
    ></canvas>
 </view>
-<button bind:tap="clearContext" type='primary' size='mini'>清空</button>
+<button bind:tap="clearContext" type='primary' size='mini'>清空</button>（{{point.x}}，{{point.y}}）
 <view style='width:100%;height:500rpx;'>
 <canvas canvas-id="secondCanvas" class='secondCanvas' style='background-color: #C0C0C0;'>
 </canvas>

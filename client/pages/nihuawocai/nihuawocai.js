@@ -8,7 +8,8 @@ Page({
   data: {
     point:{x:0,y:0},
     time:60,
-    friendlist:[]
+    friendlist:[],
+    title:'九尺钉耙'
   },
 
   /**
@@ -21,7 +22,7 @@ Page({
       avatarUrl:"",
       nickName:"123"
     }];
-
+    this.setData({ friendlist, friendlist});
   },
 
   /**

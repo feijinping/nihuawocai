@@ -9,3 +9,19 @@
   width: 98%;
   height: 98%
 }
+.userinfo-avatar {
+    width: 70rpx;
+    height: 70rpx;
+    margin: 0rpx;
+    border-radius: 50%;
+}
+.friends_view{
+  float: left;
+  margin-left: 20rpx;
+  height: 100%;
+}
+.friends_view_right{
+  float: right;
+  margin-right: 30rpx;
+  height: 100%;
+}

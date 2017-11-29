@@ -216,5 +216,10 @@ Page({
         }
         util.showBusy('信道连接中...')
         this.setData({ tunnelStatus: 'closed' })
+    },
+    toDraw:function(e){
+      wx.redirectTo({
+        url: '../nihuawocai/nihuawocai',
+      })
     }
 })

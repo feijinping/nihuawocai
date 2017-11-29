@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/nihuawocai/nihuawocai",
     "pages/index/index",
+    "pages/nihuawocai/nihuawocai",
     "pages/addCgi/addCgi"
   ],
   "window": {
